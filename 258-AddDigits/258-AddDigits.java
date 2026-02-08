@@ -1,0 +1,13 @@
+// Last updated: 08/02/2026, 20:04:23
+class Solution {
+    public int addDigits(int num) {
+     if(num==0) return 0;
+     if(num%9==0){
+        return 9;
+     }
+     else{
+        int rem=num%9;
+        return rem;
+     }
+    }
+}
